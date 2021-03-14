@@ -1,10 +1,13 @@
 package com.spring.agendalive.document;
 
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDateTime;
 
-@Document
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+
+@Entity
 public class LiveDocument {
 
     @Id
